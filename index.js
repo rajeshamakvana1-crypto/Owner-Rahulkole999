@@ -2,9 +2,9 @@ const mineflayer = require('mineflayer');
 
 // Configuration settings for your SMP
 const botOptions = {
-    host: 'YOUR_SERVER_IP_HERE',     // e.g., 'myserver.aternos.me'
+    host: 'rajeshamakvana.aternos.me',     // e.g., 'myserver.aternos.me'
     port: 25565,                     // Default Minecraft port (change if needed)
-    username: 'AFK_Bot_Name',        // The name your bot will use in-game
+    username: 'owner rahulkole999',        // The name your bot will use in-game
     // password: 'YOUR_PASSWORD',    // Uncomment if using Microsoft/Legitimate account authentication
     // version: '1.20.4'             // Uncomment and set version if auto-detect fails
 };
