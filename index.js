@@ -3,7 +3,7 @@ const mineflayer = require('mineflayer');
 // Configuration settings for your SMP
 const botOptions = {
     host: 'rajeshamakvana.aternos.me',     // e.g., 'myserver.aternos.me'
-    port: 25565,                     // Default Minecraft port (change if needed)
+    port: 22422,                     // Default Minecraft port (change if needed)
     username: 'owner rahulkole999',        // The name your bot will use in-game
     // password: 'YOUR_PASSWORD',    // Uncomment if using Microsoft/Legitimate account authentication
     // version: '1.20.4'             // Uncomment and set version if auto-detect fails
@@ -15,7 +15,7 @@ function createBot() {
     bot = mineflayer.createBot(botOptions);
 
     bot.on('spawn', () => {
-        console.log(`[Bot] Successfully spawned in the world as ${bot.username}`);
+    console.log(`[Bot] Successfully spawned in the world as ${bot.username}`);
         
         // Optional: If your server uses an auth plugin (e.g., AuthMe)
         setTimeout(() => {
