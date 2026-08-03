@@ -1,1 +1,11 @@
+{
+  "serverHost": "rajeshamakvana.aternos.me",
+  "serverPort": 25565,
+  "botUsername": "AFK_Bot",
+  "botVersion": "false",
+  "auth": "offline",
+  "login-cmd": "/login YourPasswordHere",
+  "botChunk": 4,
+  "movementInterval": 30000
+}
 
